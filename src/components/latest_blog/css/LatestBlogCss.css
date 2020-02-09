@@ -1,0 +1,50 @@
+.latest-blog {
+    margin-top: 90px;
+}
+.latest-blog .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.latest-blog .title h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+.latest-blog .title hr {
+    margin-top: 0;
+    width: 8%;
+    border: 2px solid #e7ab3c;
+}
+.latest-blog .benefit-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.latest-blog .benefit-item .icon {
+    color: #e7ab3c;
+}
+.latest-blog .benefit-item>div {
+    border-right: 1px solid #cfcfcf;
+}
+.latest-blog .benefit-item>div:last-child {
+    border-right: none;
+}
+.latest-blog .benefit-item {
+    text-align: center;
+    border: 1px solid #CFCFCF;
+}
+.latest-blog .benefit-item>div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.latest-blog .benefit-item .text {
+    text-align: left;
+    margin-left: 15px;
+}
+.latest-blog .benefit-item .text p {
+    margin: 0;
+}
+.latest-blog .benefit-item .text p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}

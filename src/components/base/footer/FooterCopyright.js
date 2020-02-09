@@ -11,7 +11,7 @@ class FooterCopyright extends Component {
                                 Design by HNH
                             </div>
                             <div className="payment-pic">
-                                <img src="img/payment-method.png" alt="" />
+                                <img src="img/payment-method.png" alt="anh" />
                             </div>
                         </div>
                     </div>

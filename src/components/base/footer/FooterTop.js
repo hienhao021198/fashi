@@ -8,7 +8,7 @@ class FooterTop extends Component {
               <div className="col-lg-3">
                 <div className="footer-left">
                   <div className="footer-logo">
-                    <a href="#"><img src="img/footer-logo.png" alt="" /></a>
+                    <a href="#"><img src="img/footer-logo.png" alt="anh" /></a>
                   </div>
                   <ul>
                     <li>Address: HaNoi City - VietNam</li>

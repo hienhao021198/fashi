@@ -1,0 +1,38 @@
+.banner-section {
+    padding: 60px 0;
+}
+
+.banner-section .content>div {
+    padding: 0 20px;
+    position: relative;
+}
+.banner-section .content .inner-text {
+    background-color: #fff;
+    padding: 1% 5%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 1000;
+}
+.banner-section .content .inner-text h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+}
+.banner-section .content>div:hover .transition {
+    height: 80%;
+    width: 80%;
+    top: 11%;
+    left: 11%;
+    opacity: 50%;
+}
+.banner-section .content .transition {
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 45%;
+    border: 12px solid #fff;
+    left: 50%;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
