@@ -8,11 +8,14 @@ import NavItem from './NavItem';
 class HeaderWeb extends Component {
     render() {
         return(
-            <div>
-                <HeaderTop />
-                <HeaderContent />
-                <NavItem />
-            </div>
+              
+    <header className="header-section">
+        <HeaderTop/>
+        <HeaderContent/>
+        <NavItem/>
+    
+   
+    </header>
         );
     }
 }
