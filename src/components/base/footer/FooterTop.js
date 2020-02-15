@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class FooterTop extends Component {
     render() {
@@ -8,7 +9,7 @@ class FooterTop extends Component {
               <div className="col-lg-3">
                 <div className="footer-left">
                   <div className="footer-logo">
-                    <a href="#"><img src="img/footer-logo.png" alt="anh" /></a>
+                    <Link to="#"><img src="img/footer-logo.png" alt="anh" /></Link>
                   </div>
                   <ul>
                     <li>Address: HaNoi City - VietNam</li>
@@ -16,10 +17,10 @@ class FooterTop extends Component {
                     <li>Email:adminpage@gmail.com</li>
                   </ul>
                   <div className="footer-social">
-                    <a href="#"><i className="fa fa-facebook" /></a>
-                    <a href="#"><i className="fa fa-instagram" /></a>
-                    <a href="#"><i className="fa fa-twitter" /></a>
-                    <a href="#"><i className="fa fa-pinterest" /></a>
+                    <Link to="#"><i className="fa fa-facebook" /></Link>
+                    <Link to="#"><i className="fa fa-instagram" /></Link>
+                    <Link to="#"><i className="fa fa-twitter" /></Link>
+                    <Link to="#"><i className="fa fa-pinterest" /></Link>
                   </div>
                 </div>
               </div>
@@ -27,10 +28,10 @@ class FooterTop extends Component {
                 <div className="footer-widget">
                   <h5>Information</h5>
                   <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Checkout</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Serivius</a></li>
+                    <li><Link to="#">About Us</Link></li>
+                    <li><Link to="#">Checkout</Link></li>
+                    <li><Link to="#">Contact</Link></li>
+                    <li><Link to="#">Serivius</Link></li>
                   </ul>
                 </div>
               </div>
@@ -38,10 +39,10 @@ class FooterTop extends Component {
                 <div className="footer-widget">
                   <h5>My Account</h5>
                   <ul>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Shopping Cart</a></li>
-                    <li><a href="#">Shop</a></li>
+                    <li><Link to="#">My Account</Link></li>
+                    <li><Link to="#">Contact</Link></li>
+                    <li><Link to="#">Shopping Cart</Link></li>
+                    <li><Link to="#">Shop</Link></li>
                   </ul>
                 </div>
               </div>

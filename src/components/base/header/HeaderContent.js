@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class HeaderContent extends Component {
     render() {
@@ -8,9 +9,9 @@ class HeaderContent extends Component {
                 <div className="row">
                     <div className="col-lg-2 col-md-2">
                         <div className="logo">
-                            <a href="./index.html">
+                            <Link to="/">
                                 <img src="img/logo.png" alt=""/>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-7">
@@ -25,16 +26,16 @@ class HeaderContent extends Component {
                     <div className="col-lg-3 text-right col-md-3">
                         <ul className="nav-right">
                             <li className="heart-icon">
-                                <a href="#">
+                                <Link to="#">
                                     <i className="icon_heart_alt"></i>
                                     <span>1</span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="cart-icon">
-                                <a href="#">
+                                <Link to="#">
                                     <i className="icon_bag_alt"></i>
                                     <span>3</span>
-                                </a>
+                                </Link>
                                 <div className="cart-hover">
                                     <div className="select-items">
                                         <table>
@@ -71,8 +72,8 @@ class HeaderContent extends Component {
                                         <h5>$120.00</h5>
                                     </div>
                                     <div className="select-button">
-                                        <a href="#" className="primary-btn view-card">VIEW CARD</a>
-                                        <a href="#" className="primary-btn checkout-btn">CHECK OUT</a>
+                                        <Link to="#" className="primary-btn view-card">VIEW CARD</Link>
+                                        <Link to="#" className="primary-btn checkout-btn">CHECK OUT</Link>
                                     </div>
                                 </div>
                             </li>

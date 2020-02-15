@@ -1,31 +1,20 @@
 import React, { Component } from 'react';
-import { Layout } from "antd";
-import HeaderWeb from './components/base/header/HeaderWeb';
-import FooterWeb from './components/base/footer/FooterWeb';
-import SlideProductContainer from './components/slide_product/SlideProductContainer';
-import BannerSection from './components/banner_section/BannerSection';
-import GenderBannerContainer from './components/gender_banner/GenderBannerContainer';
-import DealWeekContainer from './components/deal_of_week/DealWeekContainer';
-import LatestBlogContainer from './components/latest_blog/LatestBlogContainer';
-import InstargramPhotoContainer from './components/instagram-photo/InstargramPhotoContainer';
-const { Header, Footer, Content } = Layout;
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Singin from './components/auth/Singin/Singin';
+import Register from './components/auth/Register/Register';
+import IndexApp from './components/index';
+import Shop from './components/shop/Shop';
 class App extends Component {
   render() {
     return (
-
-      <div>
-        <HeaderWeb />
-        <SlideProductContainer />
-        <BannerSection />
-        <GenderBannerContainer gender={"women"} />
-        <DealWeekContainer />
-        <GenderBannerContainer gender={"man"} />
-        <InstargramPhotoContainer />
-        <LatestBlogContainer />
-        <FooterWeb />
-      </div>
-
+      <Router>
+        <Route exact path="/" component={ IndexApp } />
+        <Switch>
+          <Route path="/login" component={ Singin }/>
+          <Route path="/register" component={ Register }/>
+          <Route path="/shop" component={Shop}/>
+        </Switch>
+      </Router>
     )
   }
 }

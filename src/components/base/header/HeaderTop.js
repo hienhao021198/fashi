@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import { BrowserRouter as Link} from 'react-router-dom';
 class HeaderTop extends Component {
     render() {
         return (
@@ -17,7 +17,7 @@ class HeaderTop extends Component {
                     </div>
                 </div>
                 <div className="ht-right">
-                    <a href="#" className="login-panel"><i className="fa fa-user"></i>Login</a>
+                    
                     <div className="lan-selector">
                         <select className="language_drop" name="countries" id="countries" style={{ width: 300 }}>
                             <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
@@ -27,10 +27,10 @@ class HeaderTop extends Component {
                         </select>
                     </div>
                     <div className="top-social">
-                        <a href="#"><i className="ti-facebook"></i></a>
-                        <a href="#"><i className="ti-twitter-alt"></i></a>
-                        <a href="#"><i className="ti-linkedin"></i></a>
-                        <a href="#"><i className="ti-pinterest"></i></a>
+                        <Link to="#"><i className="ti-facebook"></i></Link>
+                        <Link to="#"><i className="ti-twitter-alt"></i></Link>
+                        <Link to="#"><i className="ti-linkedin"></i></Link>
+                        <Link to="#"><i className="ti-pinterest"></i></Link>
                     </div>
                 </div>
             </div>

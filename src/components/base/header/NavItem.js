@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 
 class NavItem extends Component {
     render() {
@@ -11,38 +11,38 @@ class NavItem extends Component {
                         <i className="ti-menu"></i>
                         <span>All departments</span>
                         <ul className="depart-hover">
-                            <li className="active"><a href="#">Women’s Clothing</a></li>
-                            <li><a href="#">Men’s Clothing</a></li>
-                            <li><a href="#">Underwear</a></li>
-                            <li><a href="#">Kid's Clothing</a></li>
-                            <li><a href="#">Brand Fashion</a></li>
-                            <li><a href="#">Accessories/Shoes</a></li>
-                            <li><a href="#">Luxury Brands</a></li>
-                            <li><a href="#">Brand Outdoor Apparel</a></li>
+                            <li className="active"><Link to="#">Women’s Clothing</Link></li>
+                            <li><Link to="#">Men’s Clothing</Link></li>
+                            <li><Link to="#">Underwear</Link></li>
+                            <li><Link to="#">Kid's Clothing</Link></li>
+                            <li><Link to="#">Brand Fashion</Link></li>
+                            <li><Link to="#">Accessories/Shoes</Link></li>
+                            <li><Link to="#">Luxury Brands</Link></li>
+                            <li><Link to="#">Brand Outdoor Apparel</Link></li>
                         </ul>
                     </div>
                 </div>
                 <nav className="nav-menu mobile-menu">
                     <ul>
-                        <li className="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./shop.html">Shop</a></li>
-                        <li><a href="#">Collection</a>
+                        <li className="active"><Link to="/">Home</Link></li>
+                        <li><Link to="/shop">Shop</Link></li>
+                        <li><Link to="#">Collection</Link>
                             <ul className="dropdown">
-                                <li><a href="#">Men's</a></li>
-                                <li><a href="#">Women's</a></li>
-                                <li><a href="#">Kid's</a></li>
+                                <li><Link to="#">Men's</Link></li>
+                                <li><Link to="#">Women's</Link></li>
+                                <li><Link to="#">Kid's</Link></li>
                             </ul>
                         </li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                        <li><a href="#">Pages</a>
+                        <li><Link to="./blog">Blog</Link></li>
+                        <li><Link to="./contact">Contact</Link></li>
+                        <li><Link to="#">Pages</Link>
                             <ul className="dropdown">
-                                <li><a href="./blog-details.html">Blog Details</a></li>
-                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="./check-out.html">Checkout</a></li>
-                                <li><a href="./faq.html">Faq</a></li>
-                                <li><a href="./register.html">Register</a></li>
-                                <li><a href="./login.html">Login</a></li>
+                                <li><Link to="./blog-details">Blog Details</Link></li>
+                                <li><Link to="./shopping-cart">Shopping Cart</Link></li>
+                                <li><Link to="./check-out">Checkout</Link></li>
+                                <li><Link to="./faq">Faq</Link></li>
+                                <li><Link to="./register">Register</Link></li>
+                                <li><Link to="./login">Login</Link></li>
                             </ul>
                         </li>
                     </ul>

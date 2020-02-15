@@ -14,7 +14,7 @@ class Product extends Component {
                 <Col span={24}>
                     <Row>
                         <Col span={24} className="product-view">
-                            <img src={link} width="100%" height="auto"/>
+                            <img src={link} width="100%" height="auto" alt="a"/>
                             <Icon type="heart" className="heart"/>
                             <p className="sale">sale</p>
                             <Row className="action">
