@@ -4,12 +4,12 @@ export default class Item extends Component {
     render() {
         return (
             <React.Fragment>
-                   <div class="col-lg-6 col-sm-6">
-                            <div class="blog-item">
-                                <div class="bi-pic">
+                   <div className="col-lg-6 col-sm-6">
+                            <div className="blog-item">
+                                <div className="bi-pic">
                                     <img src="img/blog/blog-1.jpg" alt=""/>
                                 </div>
-                                <div class="bi-text">
+                                <div className="bi-text">
                                     <a href="./blog-details.html">
                                         <h4>The Personality Trait That Makes People Happier</h4>
                                     </a>

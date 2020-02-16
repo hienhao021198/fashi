@@ -5,7 +5,7 @@ export default class Categories extends Component {
     render() {
         return (
             <React.Fragment>
-                <div class="blog-catagory">
+                <div className="blog-catagory">
                     <h4>Categories</h4>
                     <ul>
                         <li><Link to="#">Fashion</Link></li>

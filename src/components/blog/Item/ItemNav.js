@@ -13,11 +13,11 @@ export default class ItemNav extends Component {
                         <p>Fashion <span>- May 19, 2019</span></p>
                     </div>
                 </Link> */}
-                <a href="#" class="rb-item">
-                    <div class="rb-pic">
+                <a href="#" className="rb-item">
+                    <div className="rb-pic">
                         <img src="img/blog/recent-1.jpg" alt="" />
                     </div>
-                    <div class="rb-text">
+                    <div className="rb-text">
                         <h6>The Personality Trait That Makes...</h6>
                         <p>Fashion <span>- May 19, 2019</span></p>
                     </div>

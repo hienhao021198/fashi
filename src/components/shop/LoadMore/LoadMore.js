@@ -7,7 +7,7 @@ class LoadMore extends Component {
             <React.Fragment>
                 <div className="loading-more">
                         <i className="icon_loading"></i>
-                        <Link>
+                        <Link to="#">
                             Loading More
                         </Link>
                     </div>
