@@ -11,11 +11,13 @@ import Sort from './Sort/Sort';
 import Product from './Product/Product';
 import DetailShowProduct from './DetailShowProduct/DetailShowProduct';
 import LoadMore from './LoadMore/LoadMore';
+import BreacrumbSection from '../base/BreacrumbSection/BreacrumbSection';
 export class Shop extends Component {
     render() {
         return (
             <React.Fragment>
                 <HeaderWeb />
+                <BreacrumbSection/>
                 <section class="product-shop spad">
                     <div class="container">
                         <div class="row">

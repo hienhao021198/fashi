@@ -28,10 +28,10 @@ class FooterTop extends Component {
                 <div className="footer-widget">
                   <h5>Information</h5>
                   <ul>
-                    <li><Link to="#">About Us</Link></li>
-                    <li><Link to="#">Checkout</Link></li>
-                    <li><Link to="#">Contact</Link></li>
-                    <li><Link to="#">Serivius</Link></li>
+                    <li><Link to="/about">About Us</Link></li>
+                    <li><Link to="/checkout">Checkout</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/serivirus">Serivius</Link></li>
                   </ul>
                 </div>
               </div>
@@ -39,10 +39,10 @@ class FooterTop extends Component {
                 <div className="footer-widget">
                   <h5>My Account</h5>
                   <ul>
-                    <li><Link to="#">My Account</Link></li>
-                    <li><Link to="#">Contact</Link></li>
-                    <li><Link to="#">Shopping Cart</Link></li>
-                    <li><Link to="#">Shop</Link></li>
+                    <li><Link to="/myaccout">My Account</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/shoppingcart">Shopping Cart</Link></li>
+                    <li><Link to="/shop">Shop</Link></li>
                   </ul>
                 </div>
               </div>

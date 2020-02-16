@@ -4,6 +4,7 @@ import Singin from './components/auth/Singin/Singin';
 import Register from './components/auth/Register/Register';
 import IndexApp from './components/index';
 import Shop from './components/shop/Shop';
+import Blog from './components/blog/Blog';
 class App extends Component {
   render() {
     return (
@@ -12,7 +13,8 @@ class App extends Component {
         <Switch>
           <Route path="/login" component={ Singin }/>
           <Route path="/register" component={ Register }/>
-          <Route path="/shop" component={Shop}/>
+          <Route path="/shop" component={ Shop }/>
+          <Route path="/blog" component={ Blog } />
         </Switch>
       </Router>
     )

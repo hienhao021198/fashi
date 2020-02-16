@@ -4,7 +4,7 @@ import { BrowserRouter as Route, Link } from 'react-router-dom';
 class NavItem extends Component {
     render() {
         return (
-            <div className="nav-item">
+            <div className="nav-item" style={{height: '52px'}}>
             <div className="container">
                 <div className="nav-depart">
                     <div className="depart-btn">
