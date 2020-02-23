@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Route, Link } from 'react-router-dom';
+import { BrowserRouter as Route, Link, NavLink } from 'react-router-dom';
 
 class NavItem extends Component {
     render() {
+        const active = {
+            color: '#ffffff',
+            backgroundColor: '#e7ab3c'
+        }
         return (
             <div className="nav-item" style={{height: '52px'}}>
             <div className="container">
@@ -22,9 +26,9 @@ class NavItem extends Component {
                 </div>
                 <nav className="nav-menu mobile-menu">
                     <ul>
-                        <li className="active"><Link to="/">Home</Link></li>
-                        <li><Link to="/shop">Shop</Link></li>
-                        <li><Link to="#">Collection</Link>
+                        <li><NavLink exact={true} activeStyle={active} to="/">Home</NavLink></li>
+                        <li><NavLink activeStyle={active} to="/shop">Shop</NavLink></li>
+                        <li><NavLink activeStyle={active} to="/collection">Collection</NavLink>
                             <ul className="dropdown">
                                 <li><Link to="/shop-men">Men's</Link></li>
                                 <li><Link to="/shop-women">Women's</Link></li>

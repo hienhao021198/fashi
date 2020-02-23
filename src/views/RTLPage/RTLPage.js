@@ -18,25 +18,25 @@ import BugReport from "@material-ui/icons/BugReport";
 import Code from "@material-ui/icons/Code";
 import Cloud from "@material-ui/icons/Cloud";
 // core components
-import Button from "../../components/admin/CustomButtons/Button.js";
-import GridItem from "../../components/admin/Grid/GridItem.js";
+import Button from "../../components/admin/CustomButtons/Button";
+import GridItem from "../../components/admin/Grid/GridItem";
 import GridContainer from "../../components/admin/Grid/GridContainer";
-import Tasks from "components/Tasks/Tasks.js";
-import CustomTabs from "../../components/admin/CustomTabs/CustomTabs.js";
-import Danger from "../../components/admin/Typography/Danger.js";
-import Card from "../../components/admin/Card/Card.js";
-import CardHeader from "../../components/admin/Card/CardHeader.js";
-import CardAvatar from "../../components/admin/Card/CardAvatar.js";
-import CardIcon from "../../components/admin/Card/CardIcon.js";
-import CardBody from "../../components/admin/Card/CardBody.js";
-import CardFooter from "../../components/admin/Card/CardFooter.js";
-import SnackbarContent from "../../components/admin/Snackbar/SnackbarContent.js";
+import Tasks from "../../components/admin/Tasks/Tasks";
+import CustomTabs from "../../components/admin/CustomTabs/CustomTabs";
+import Danger from "../../components/admin/Typography/Danger";
+import Card from "../../components/admin/Card/Card";
+import CardHeader from "../../components/admin/Card/CardHeader";
+import CardAvatar from "../../components/admin/Card/CardAvatar";
+import CardIcon from "../../components/admin/Card/CardIcon";
+import CardBody from "../../components/admin/Card/CardBody";
+import CardFooter from "../../components/admin/Card/CardFooter";
+import SnackbarContent from "../../components/admin/Snackbar/SnackbarContent";
 
 import {
   dailySalesChart,
   emailsSubscriptionChart,
   completedTasksChart
-} from "variables/charts.js";
+} from "../../variables/charts";
 
 import styles from "../../assets/jss/material-dashboard-react/views/rtlStyle.js";
 
