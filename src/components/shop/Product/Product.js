@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 class Product extends Component {
     render() {
+        console.log(this.props);
         return (
             <React.Fragment>
                 <div className="col-lg-4 col-sm-6">
+               
                     <div className="product-item">
                         <div className="pi-pic">
-                            <img src="img/products/product-2.jpg" alt="" />
+                         <Link to={`/detail-product/${this.props.id}`}>
+                            <img src="img/products/product-2.jpg" alt="" /> </Link>
                             <div className="icon">
                                 <i className="icon_heart_alt"></i>
                             </div>
@@ -28,6 +31,7 @@ class Product extends Component {
                             </div>
                         </div>
                     </div>
+                   
                 </div>
             </React.Fragment>
         )

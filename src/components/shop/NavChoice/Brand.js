@@ -1,42 +1,54 @@
 import React, { Component } from 'react'
+const itemsBrand = [
+    {
+        id: 'bc-calvin',
+        name: 'Calvin Klein'
+    },
+    {
+        id: 'bc-diesel',
+        name: 'Diesel'
+    },
+    {
+        id: 'bc-polo',
+        name: 'Polo'
+    },
+    {
+        id: 'bc-tommy',
+        name: ' Tommy Hilfiger'
+    },
 
+
+];
 class Brand extends Component {
+    showItemsBrand = (itemsBrand) => {
+        let result = null;
+        if (itemsBrand.length > 0) {
+            result = itemsBrand.map((itemBrand, index) => {
+                return (
+                    <div className="bc-item">
+                        <label for={itemBrand.id}>
+                            {itemBrand.name}
+                            <input type="checkbox" id={itemBrand.id} />
+                            <span className="checkmark"></span>
+                        </label>
+                    </div>
+                );
+            });
+
+        }
+        return result;
+    }
     render() {
+
         return (
             <React.Fragment>
-                 <div className="filter-widget">
-                        <h4 className="fw-title">Brand</h4>
-                        <div className="fw-brand-check">
-                            <div className="bc-item">
-                                <label for="bc-calvin">
-                                    Calvin Klein
-                                    <input type="checkbox" id="bc-calvin"/>
-                                    <span className="checkmark"></span>
-                                </label>
-                            </div>
-                            <div className="bc-item">
-                                <label for="bc-diesel">
-                                    Diesel
-                                    <input type="checkbox" id="bc-diesel"/>
-                                    <span className="checkmark"></span>
-                                </label>
-                            </div>
-                            <div className="bc-item">
-                                <label for="bc-polo">
-                                    Polo
-                                    <input type="checkbox" id="bc-polo"/>
-                                    <span className="checkmark"></span>
-                                </label>
-                            </div>
-                            <div className="bc-item">
-                                <label for="bc-tommy">
-                                    Tommy Hilfiger
-                                    <input type="checkbox" id="bc-tommy"/>
-                                    <span className="checkmark"></span>
-                                </label>
-                            </div>
-                        </div>
+                <div className="filter-widget">
+                    <h4 className="fw-title">Brand</h4>
+                    <div className="fw-brand-check">
+                        {this.showItemsBrand(itemsBrand)}
+
                     </div>
+                </div>
             </React.Fragment>
         )
     }

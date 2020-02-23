@@ -17,7 +17,7 @@ class HeaderTop extends Component {
                     </div>
                 </div>
                 <div className="ht-right">
-                    <i></i>
+                    <div><i>a</i></div>
                     <div className="lan-selector">
                         <select className="language_drop" name="countries" id="countries" style={{ width: 300 }}>
                             <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"

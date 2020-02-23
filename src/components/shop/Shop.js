@@ -12,7 +12,7 @@ import Product from './Product/Product';
 import DetailShowProduct from './DetailShowProduct/DetailShowProduct';
 import LoadMore from './LoadMore/LoadMore';
 import BreacrumbSection from '../base/BreacrumbSection/BreacrumbSection';
-export class Shop extends Component {
+class Shop extends Component {
     render() {
         return (
             <React.Fragment>
@@ -24,8 +24,8 @@ export class Shop extends Component {
                             <div class="col-lg-3 col-md-6 col-sm-8 order-2 order-lg-1 produts-sidebar-filter">
                                 <Categories />
                                 <Brand />
-                                <Price />
-                                <Color />
+                                {/* <Price />
+                                <Color /> */}
                                 <Size />
                                 <Tags />
                             </div>
@@ -40,15 +40,15 @@ export class Shop extends Component {
                                 </div>
                                 <div class="product-list">
                                     <div class="row">
-                                        <Product />
-                                        <Product />
-                                        <Product />
-                                        <Product />
-                                        <Product />
-                                        <Product />
-                                        <Product />
-                                        <Product />
-                                        <Product />
+                                        <Product id={1} />
+                                        <Product id={2} />
+                                        <Product id={3}/>
+                                        <Product id={4}/>
+                                        <Product id={5}/>
+                                        <Product id={6}/>
+                                        <Product id={7}/>
+                                        <Product id={8}/>
+                                        <Product id={9}/>
                                        
                                     </div>
                                 </div>

@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { BrowserRouter as Link } from "react-router-dom";
 import HeaderWeb from "../base/header/HeaderWeb";
 import FooterWeb from "../base/footer/FooterWeb";
 import BreacrumbSection from "../base/BreacrumbSection/BreacrumbSection";
-import BlogEntry from "../base/blog_entry/BlogEntry";
 import Tags from "../base/Tags/Tags";
 import LoadMore from "../shop/LoadMore/LoadMore";
 import Categories from "../shop/NavChoice/Categories";
