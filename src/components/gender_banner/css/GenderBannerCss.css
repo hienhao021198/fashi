@@ -1,0 +1,42 @@
+.gender-banner .content>div {
+    padding: 0 20px;
+}
+.gender-banner .content .logo {
+    position: relative;
+}
+.gender-banner .content .logo>div {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    text-align: center;
+}
+.gender-banner .content .logo>div h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.gender-banner .content .logo>div p {
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+    margin: 0 50px;
+    font-size: 18px;
+}
+.gender-banner .content .main-content {
+    position: relative;
+}
+.gender-banner .content .main-content .slide-show .button button {
+    background-color: #ffffff;
+    border: none;
+    font-size: 27px;
+}
+.gender-banner .content .main-content .menu {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.gender-banner .content .main-content .menu ul {
+    border: none;
+}
+.gender-banner .content .main-content .menu li {
+    font-size: 20px;
+    color: #000;
+}

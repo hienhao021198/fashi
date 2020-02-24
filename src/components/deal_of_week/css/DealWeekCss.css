@@ -1,0 +1,61 @@
+.deal-week {
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.deal-week .main-content {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.deal-week .section-title .head {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+.deal-week .section-title hr {
+    border: 2px solid #e7ab3c;
+    width: 15%;
+}
+.deal-week .section-title .content {
+    margin-top: 30px;
+    padding: 0 20%;
+}
+.deal-week .section-title .product-price {
+    color: #e7ab3c;
+    font-size: 25px;
+    font-weight: bold;
+}
+.deal-week .section-title .product-price span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 100;
+}
+.deal-week .button-shop button {
+    background-color: #e7ab3c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+}
+.deal-week .countdown-timer .timer {
+    margin: 0px 10px;
+    padding: 10px 0px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.deal-week .countdown-timer {
+    margin-bottom: 10px;
+}
+.deal-week .countdown-timer .timer p:first-child {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #e7ab3c;
+}
+.deal-week .countdown-timer .timer p:last-child {
+    letter-spacing: 1px;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
