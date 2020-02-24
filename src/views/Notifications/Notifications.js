@@ -7,14 +7,14 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import AddAlert from "@material-ui/icons/AddAlert";
 // core components
-import GridItem from "../../components/admin/Grid/GridItem.js";
-import GridContainer from "comp../../components/adminonents/Grid/GridContainer.js";
-import Button from "../../components/admin/CustomButtons/Button.js";
-import SnackbarContent from "../../components/admin/Snackbar/SnackbarContent.js";
-import Snackbar from "../../components/admin/Snackbar/Snackbar.js";
-import Card from "../../components/admin/Card/Card.js";
-import CardHeader from "../../components/admin/Card/CardHeader.js";
-import CardBody from "../../components/admin/Card/CardBody.js";
+import GridItem from "../../components/admin/Grid/GridItem";
+import GridContainer from "../../components/admin/Grid/GridContainer";
+import Button from "../../components/admin/CustomButtons/Button";
+import SnackbarContent from "../../components/admin/Snackbar/SnackbarContent";
+import Snackbar from "../../components/admin/Snackbar/Snackbar";
+import Card from "../../components/admin/Card/Card";
+import CardHeader from "../../components/admin/Card/CardHeader";
+import CardBody from "../../components/admin/Card/CardBody";
 
 const styles = {
   cardCategoryWhite: {
